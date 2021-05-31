@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react'
-
 import Link from 'next/link'
 import {
   Heading,
@@ -12,8 +10,7 @@ import { Container } from '../../components/Container'
 import { Banner } from '../../components/Banner'
 import { Footer } from '../../components/Footer'
 
-const WhoAreWe = (props: Props) => {
-  console.log(props)
+const WhoAreWe = () => {
   return (
     <AnimatePresence>
       <motion.div

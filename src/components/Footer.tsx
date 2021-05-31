@@ -1,10 +1,8 @@
 import { Flex,  HStack, Button } from '@chakra-ui/react'
 import { DarkModeSwitch } from '../components/DarkModeSwitch'
 import Link from 'next/link'
-import {Props} from 'react'
 
-export const Footer = (props: Props) => {
-  console.log(props)
+export const Footer = (props: any) => {
   return (
     <Flex as="footer" py="8rem" {...props}>
       <HStack>

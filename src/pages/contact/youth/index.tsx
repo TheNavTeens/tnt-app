@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 
 import {
-  Heading,
   VStack
 } from '@chakra-ui/react'
 import { motion, AnimatePresence } from 'framer-motion'
