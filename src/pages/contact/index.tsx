@@ -5,8 +5,6 @@ import {
 import { Container } from '../../components/Container'
 import { Footer } from '../../components/Footer'
 
-import { GetServerSideProps } from 'next'
-
 import { useEffect, useState } from 'react'
 
 const GetInvolved = () => {
@@ -28,22 +26,24 @@ const GetInvolved = () => {
   }, [])
 
   return (
-    <Container height="100vh">
-      <VStack>
-        <iframe
-          title="Get involved!"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfTU4i0jb3tuZ732U38aUVwh_Z5puJEE65fiGpnmw7OJe9fjg/viewform?embedded=true"
-          width={width}
-          height={height}
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0">
-          Loading…
-        </iframe>
-      </VStack>
+    <div>
+      <Container height="100vh">
+        <VStack>
+          <iframe
+            title="Get involved!"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfTU4i0jb3tuZ732U38aUVwh_Z5puJEE65fiGpnmw7OJe9fjg/viewform?embedded=true"
+            width={width}
+            height={height}
+            frameBorder="0"
+            marginHeight={0}
+            marginWidth={0}>
+            Loading…
+          </iframe>
+        </VStack>
 
-      <Footer />
-    </Container>
+        <Footer />
+      </Container>
+    </div>
   )
 }
 

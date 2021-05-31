@@ -26,22 +26,24 @@ const BookTJ = () => {
   }, [])
 
   return (
-    <Container height="100vh">
-      <VStack>
-        <iframe
-          title="Book t-Junction"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdkLNQI1aI6xcoCimu6-YhNxk4qpg1e7pUD5cgy8OEPmrqZfQ/viewform?embedded=true"
-          width={width}
-          height={height}
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0">
-          Loading…
-        </iframe>
-      </VStack>
+    <div>
+      <Container height="100vh">
+        <VStack>
+          <iframe
+            title="Book t-Junction"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdkLNQI1aI6xcoCimu6-YhNxk4qpg1e7pUD5cgy8OEPmrqZfQ/viewform?embedded=true"
+            width={width}
+            height={height}
+            frameBorder="0"
+            marginHeight={0}
+            marginWidth={0}>
+            Loading…
+          </iframe>
+        </VStack>
 
-      <Footer />
-    </Container>
+        <Footer />
+      </Container>
+    </div>
   )
 }
 
