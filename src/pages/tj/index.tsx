@@ -4,7 +4,6 @@ import {
 
 import { Container } from '../../components/Container'
 import { Banner } from '../../components/Banner'
-import { Footer } from '../../components/Footer'
 
 import { useEffect, useState } from 'react'
 
@@ -43,8 +42,6 @@ const BookTJ = () => {
             Loading…
           </iframe>
         </VStack>
-
-        <Footer />
       </Container>
     </div>
   )
