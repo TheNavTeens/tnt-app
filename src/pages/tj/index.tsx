@@ -3,6 +3,7 @@ import {
 } from '@chakra-ui/react'
 
 import { Container } from '../../components/Container'
+import { Banner } from '../../components/Banner'
 import { Footer } from '../../components/Footer'
 
 import { useEffect, useState } from 'react'
@@ -28,6 +29,8 @@ const BookTJ = () => {
   return (
     <div>
       <Container height="100vh">
+
+        <Banner />
         <VStack>
           <iframe
             title="Book t-Junction"
