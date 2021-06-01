@@ -21,9 +21,9 @@ const Index = () => (
         <Hero />
         <Main>
           <VStack>
-            <Heading>To know Christ</Heading>
-            <Heading>to make Him known</Heading>
-            <Heading>and to help others do the same</Heading>
+            <Heading size="lg">To know Christ</Heading>
+            <Heading size="lg">To make Him known</Heading>
+            <Heading size="lg">To help others do the same</Heading>
           </VStack>
         </Main>
 

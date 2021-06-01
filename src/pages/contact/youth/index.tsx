@@ -18,7 +18,7 @@ const Youth = () => {
     const refreshDimensions = () => {
       const width = Math.min(maxWidth, window.innerWidth - 40)
       setWidth(width)
-      setHeight(maxHeight / (width / maxWidth))
+      setHeight(maxHeight * 0.6 * (maxWidth / width))
     }
 
     window.addEventListener("resize", () => {

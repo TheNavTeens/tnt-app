@@ -8,7 +8,7 @@ export const Banner = ({ title }: { title: string }) => (
     bgGradient="linear(to-l, #7928CA, #FF0080)"
     bgClip="text"
   >
-    <Heading fontSize="6vw">{title}</Heading>
+    <Heading fontSize="6xl">{title}</Heading>
   </Flex>
 )
 
