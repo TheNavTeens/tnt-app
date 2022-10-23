@@ -4,7 +4,6 @@ import {
   Box,
   Image,
   Link,
-  Button,
   VStack
 } from '@chakra-ui/react'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -12,8 +11,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Container } from '../../../components/Container'
 import { Banner } from '../../../components/Banner'
 import { Footer } from '../../../components/Footer'
-
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 const Youth = () => {
   return (
@@ -31,8 +28,8 @@ const Youth = () => {
             <VStack>
               <Heading>Empowering Youth - The Word</Heading>
 
-              <Box boxSize='md'>
-                <Image src='/images/empowering_the_youth_2_the_word.png' alt='Empowering Youth - The Word' />
+              <Box boxSize={['xs', 'md', 'lg']}>
+                <Image src="/images/empowering_the_youth_2_the_word.png" alt="Empowering Youth - The Word" />
               </Box>
 
               <Text>Have you ever wondered what God has to say to you about something you’re personally concerned about?</Text>
@@ -41,7 +38,9 @@ const Youth = () => {
               <Text> You’ll also get to be in the driver’s seat, and decide on what issues you are interested in looking at God’s word to learn more about!</Text>
 
               <Link href="https://forms.gle/okkzNs6fzoL2w45v8" isExternal>
-                <Button rightIcon={<ExternalLinkIcon mx='2px' />}>Register here!</Button>
+                <Box boxSize={['xs', 'md', 'lg']}>
+                  <Image src='/images/YouthProgrammeNov2022QR.jpg' alt="Registration QR code" />
+                </Box>
               </Link>
             </VStack>
 

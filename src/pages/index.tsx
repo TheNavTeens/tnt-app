@@ -17,7 +17,7 @@ const Index = () => (
       exit={{ opacity: 0 }}
       transition={{ ease: "easeOut", duration: 1 }}
     >
-      <Container height="100vh">
+      <Container>
         <Hero />
         <Main>
           <VStack>

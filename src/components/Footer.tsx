@@ -1,11 +1,11 @@
-import { Flex,  HStack, Button } from '@chakra-ui/react'
+import { Flex,  Stack, Button } from '@chakra-ui/react'
 import { DarkModeSwitch } from '../components/DarkModeSwitch'
 import Link from 'next/link'
 
 export const Footer = (props: any) => {
   return (
     <Flex as="footer" py="8rem" {...props}>
-      <HStack>
+      <Stack direction={["column", "row"]}>
         <Link href="/">
           <Button isDisabled={props.page === "/"}>Home</Button>
         </Link>
@@ -18,7 +18,7 @@ export const Footer = (props: any) => {
         <Link href="/contact">
           <Button isDisabled={props.page === "/contact"}>Get involved!</Button>
         </Link>
-      </HStack>
+      </Stack>
 
       <DarkModeSwitch />
     </Flex>

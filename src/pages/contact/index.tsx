@@ -6,7 +6,7 @@ import {
 import { motion, AnimatePresence } from 'framer-motion'
 
 import { Container } from '../../components/Container'
-import { Hero } from '../../components/Hero'
+import { Banner } from '../../components/Banner'
 import { Main } from '../../components/Main'
 import { Footer } from '../../components/Footer'
 
@@ -19,9 +19,9 @@ const GetInvolved = () => {
         exit={{ opacity: 0 }}
         transition={{ ease: "easeOut", duration: 1 }}
       >
-        <Container height="100vh">
+        <Container>
 
-          <Hero />
+          <Banner />
           <Main>
             <VStack>
               <Link href="/contact/youth"><Button>I want to learn</Button></Link>

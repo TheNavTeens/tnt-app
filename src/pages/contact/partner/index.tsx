@@ -39,7 +39,7 @@ const Partner = () => {
           <Container height="100vh">
 
             <Banner />
-            <VStack>
+            <VStack overflow="scroll">
               <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSf8iH2tADrqyXygJMuggJHz0I_sKfrGBQWu-RS1b7ALjYQouw/viewform?embedded=true"
               width={width}
