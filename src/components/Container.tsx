@@ -13,6 +13,8 @@ export const Container = (props: FlexProps) => {
       justifyContent="flex-start"
       bg={bgColor[colorMode]}
       color={color[colorMode]}
+      margin="16px"
+      height={["100%", "100vh"]}
       {...props}
     />
   )

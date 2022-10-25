@@ -27,7 +27,7 @@ const BookTJ = () => {
 
   return (
     <div>
-      <Container height="100vh" overflow="scroll">
+      <Container height="100vh">
         <Banner />
         <VStack overflow="scroll">
           <iframe

@@ -4,9 +4,9 @@ export const Banner = ({ title }: { title: string }) => (
   <Flex
     justifyContent="center"
     alignItems="center"
-    height="30vh"
     bgGradient="linear(to-l, #7928CA, #FF0080)"
     bgClip="text"
+    height="30%"
   >
     <Heading fontSize="6xl">{title}</Heading>
   </Flex>
