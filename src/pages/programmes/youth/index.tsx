@@ -4,7 +4,8 @@ import {
   Box,
   Image,
   Link,
-  VStack
+  VStack,
+  Button
 } from '@chakra-ui/react'
 import { motion, AnimatePresence } from 'framer-motion'
 
@@ -22,26 +23,30 @@ const Youth = () => {
           exit={{ opacity: 0 }}
           transition={{ ease: "easeOut", duration: 1 }}
         >
-          <Container>
+          <Container height="100%">
 
             <Banner />
             <VStack>
               <Heading>Empowering Youth - The Word</Heading>
 
               <Box boxSize={['xs', 'md', 'lg']}>
-                <Image src="/images/empowering_the_youth_2_the_word.png" alt="Empowering Youth - The Word" />
+                <Image src="/images/empowering_the_youth_2_the_word.jpg" alt="Empowering Youth - The Word" />
               </Box>
 
-              <Text>Have you ever wondered what God has to say to you about something you’re personally concerned about?</Text>
-              <Text>Would you like to learn some ways you can study God’s word, so that you can find out for yourself?</Text>
-              <Text>Come join us as we learn how to use some tools that can help us understand what the Bible has to say on today’s issues!</Text>
-              <Text> You’ll also get to be in the driver’s seat, and decide on what issues you are interested in looking at God’s word to learn more about!</Text>
-
+              <Text>Did you know that God has much to say to you through the Bible? But how will you know if you don’t study it for yourselves?</Text>
+              <Text>Come join us and learn practical ways you can study the God’s word for yourself!</Text>
+              <Text>What are you waiting for??</Text>
               <Link href="https://forms.gle/okkzNs6fzoL2w45v8" isExternal>
-                <Box boxSize={['xs', 'md', 'lg']}>
-                  <Image src='/images/YouthProgrammeNov2022QR.jpg' alt="Registration QR code" />
-                </Box>
+                <Button>Sign up now!</Button>
               </Link>
+
+              <Text>Registration closes on 5 November</Text>
+
+              <Text>Program Details</Text>
+              <Text>Date: 18 and 19 November 2022</Text>
+              <Text>Time: 9-5pm (Lunch will be provided)</Text>
+              <Text>Venue: t-Junction (392 Race Course Road, S218648)</Text>
+
             </VStack>
 
             <Footer />
