@@ -44,8 +44,10 @@ const Youth = () => {
 
               <Text>Program Details</Text>
               <Text>Date: 18 and 19 November 2022</Text>
-              <Text>Time: 9-5pm (Lunch will be provided)</Text>
-              <Text>Venue: t-Junction (392 Race Course Road, S218648)</Text>
+              <Text>Time: 9-5pm</Text>
+              <Text fontSize="sm">(Lunch will be provided)</Text>
+              <Text>Venue: t-Junction</Text>
+              <Text>(392 Race Course Road, S218648)</Text>
 
             </VStack>
 
