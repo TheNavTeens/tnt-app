@@ -23,7 +23,7 @@ const Youth = () => {
           exit={{ opacity: 0 }}
           transition={{ ease: "easeOut", duration: 1 }}
         >
-          <Container height="100%">
+          <Container>
 
             <Banner />
             <VStack>
