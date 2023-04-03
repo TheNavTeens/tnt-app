@@ -15,7 +15,7 @@ class CoPFeedback extends React.Component {
 
     render () {
         return (
-            <div></div>
+            <div>Please wait while we re-direct you</div>
         )
     }
 }
