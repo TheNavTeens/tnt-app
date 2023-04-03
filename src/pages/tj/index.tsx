@@ -44,7 +44,7 @@ const BookTJ = () => {
               <VStack overflow="scroll">
                 <iframe 
                   src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Asia%2FSingapore&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&src=ODVnOWQ4YW5sM2syaWVjNDM3Nmw1czFvaWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aDBubHZndnVhZTI4bG5jZ3RpMDRsNWdqazBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YmtnNHNxZTE3YzkwZWRqZ2lsM2JpbXNjODRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=djUwYTlzZnF1djlrYWo4dDI2MDM1c205ajhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZTA1MWQxbTZyMGo0cGQwZmM2cHRuMzJ2ZXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cGFubm9zMGNnazAwMmpwNzAzdWoyZmZnZDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23D50000&color=%23EF6C00&color=%239E69AF&color=%230B8043&color=%233F51B5&color=%23D81B60" 
-                  width="800"
+                  width="600"
                   height="600"
                   frameBorder="0"
                   marginHeight={0}
