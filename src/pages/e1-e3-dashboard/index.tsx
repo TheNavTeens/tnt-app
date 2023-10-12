@@ -12,7 +12,7 @@ import { Banner } from '../../components/Banner'
 
 import { useEffect, useState } from 'react'
 
-const BookTJ = () => {
+const E1E3Dashboard = () => {
   const [width, setWidth] = useState(0)
   const [height, setHeight] = useState(0)
   useEffect(() => {
@@ -36,8 +36,9 @@ const BookTJ = () => {
         <Banner /> 
         <Tabs>
           <TabList>
-            <Tab>Calendar</Tab>
-            <Tab>Booking Form</Tab>
+            <Tab>E1</Tab>
+            <Tab>E2</Tab>
+            <Tab>E3</Tab>
           </TabList>
           <TabPanels>
             <TabPanel>
@@ -74,4 +75,4 @@ const BookTJ = () => {
   )
 }
 
-export default BookTJ
+export default E1E3Dashboard
