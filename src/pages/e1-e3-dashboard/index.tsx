@@ -34,7 +34,8 @@ const E1E3Dashboard = () => {
               <VStack overflow="scroll">
                 <Heading>E2</Heading>
                 <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmFDo1u1WNeF_sQu8VHKPt9sE-763WbzfYzgQYsuIPxn7Wpa9WmtDFrmKdrfKF-P-FK8q-tM2427jb/pubchart?oid=1534404840&amp;format=interactive"></iframe>
-                <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmFDo1u1WNeF_sQu8VHKPt9sE-763WbzfYzgQYsuIPxn7Wpa9WmtDFrmKdrfKF-P-FK8q-tM2427jb/pubchart?oid=396302033&amp;format=interactive"></iframe>
+                <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmFDo1u1WNeF_sQu8VHKPt9sE-763WbzfYzgQYsuIPxn7Wpa9WmtDFrmKdrfKF-P-FK8q-tM2427jb/pubchart?oid=1720305951&amp;format=interactive"></iframe>
+                <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmFDo1u1WNeF_sQu8VHKPt9sE-763WbzfYzgQYsuIPxn7Wpa9WmtDFrmKdrfKF-P-FK8q-tM2427jb/pubchart?oid=363597148&amp;format=interactive"></iframe>
               </VStack>
             </TabPanel>
             <TabPanel>
@@ -42,6 +43,7 @@ const E1E3Dashboard = () => {
                 <Heading>E3</Heading>
                 <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQIEnxEqwCNwNj1QzMDOrhwJ4UBaWRvT5_9HImQ585-AFu5tq5rg-s_UHqeeMmPXdqa-3UyS-LZM8BB/pubchart?oid=991987233&amp;format=interactive"></iframe>
                 <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQIEnxEqwCNwNj1QzMDOrhwJ4UBaWRvT5_9HImQ585-AFu5tq5rg-s_UHqeeMmPXdqa-3UyS-LZM8BB/pubchart?oid=458433379&amp;format=interactive"></iframe>
+                <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQIEnxEqwCNwNj1QzMDOrhwJ4UBaWRvT5_9HImQ585-AFu5tq5rg-s_UHqeeMmPXdqa-3UyS-LZM8BB/pubchart?oid=207964844&amp;format=interactive"></iframe>
               </VStack>
             </TabPanel>
           </TabPanels>
