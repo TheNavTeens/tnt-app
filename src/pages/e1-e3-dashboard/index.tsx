@@ -18,9 +18,8 @@ const E1E3Dashboard = () => {
         <Banner /> 
         <Tabs>
           <TabList>
-            <Tab>E1</Tab>
-            <Tab>E2</Tab>
-            <Tab>E3</Tab>
+            <Tab>Evangelism</Tab>
+            <Tab>Discipling</Tab>
           </TabList>
           <TabPanels>
             <TabPanel>
@@ -28,6 +27,7 @@ const E1E3Dashboard = () => {
                 <Heading>Evangelism</Heading>
                 <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLOWTa8Qo8WWSZ6PZLOTaKOVGia-vdPmqOa3dY2OUkSNvV-G1yN_x7hruLqw0ytj4giXFJAHUtjA5Z/pubchart?oid=803854579&amp;format=interactive"></iframe>
                 <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLOWTa8Qo8WWSZ6PZLOTaKOVGia-vdPmqOa3dY2OUkSNvV-G1yN_x7hruLqw0ytj4giXFJAHUtjA5Z/pubchart?oid=37917538&amp;format=interactive"></iframe>
+                <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLOWTa8Qo8WWSZ6PZLOTaKOVGia-vdPmqOa3dY2OUkSNvV-G1yN_x7hruLqw0ytj4giXFJAHUtjA5Z/pubchart?oid=1893613535&amp;format=interactive"></iframe>
               </VStack>
             </TabPanel>
             <TabPanel>

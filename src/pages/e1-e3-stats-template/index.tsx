@@ -1,6 +1,6 @@
 import React from 'react';
 
-class E1E2E3Statistics extends React.Component {
+class E1E2E3StatisticsTemplate extends React.Component {
     componentDidMount () {
         window.location.href = "https://docs.google.com/spreadsheets/d/1t7uKM1FsgonP77tT3R2MUy1wykFpuPAPEgD4tBXyxKw/edit?usp=sharing";
     }
@@ -12,4 +12,4 @@ class E1E2E3Statistics extends React.Component {
     }
 }
 
-export default E1E2E3Statistics;
+export default E1E2E3StatisticsTemplate;
