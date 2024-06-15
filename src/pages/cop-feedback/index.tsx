@@ -2,7 +2,7 @@ import React from 'react';
 
 class CoPFeedback extends React.Component {
     componentDidMount () {
-        let session = "discussion";
+        let session = "retreat";
 
         if (session == "teaching") {
         // Teaching Session feedback
