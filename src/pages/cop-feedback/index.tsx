@@ -2,14 +2,11 @@ import React from 'react';
 
 class CoPFeedback extends React.Component {
     componentDidMount () {
-        let session = "discussion";
+        let session = "regular";
 
-        if (session == "teaching") {
-        // Teaching Session feedback
-            window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSd1Z5n3LjQIdw5hMavBcqXxA81iez5vWE3ME5fQsgF-tz_GPQ/viewform?usp=sf_link";
-        } else if (session == "discussion") {
+        if (session == "regular") {
         // Discussion Session Feedback
-            window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeZbWzCeMnao-z7DzK-_fjQsO94tPu81sglq5p9w6O_Q9TNJQ/viewform?usp=sf_link";
+            window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeJAFyTXoaie-HA19VWjI__Vt4CLdfAZ7xizkuxZ6cJTCpI8w/viewform?usp=dialog";
         } else if (session == "retreat") {
         // Retreat Session Feedback
             window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScUDhMAouPXL4z4XLO6-gaqqLUgiEaDrCBcJ6Ssw1klJCpolg/viewform?usp=sf_link";
