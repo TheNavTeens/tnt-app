@@ -2,7 +2,7 @@ import React from 'react';
 
 class TzNavCoPFeedback extends React.Component {
   componentDidMount() {
-    let session = "vision";
+    let session = "intention";
 
     if (session == "disciple-making") {
       window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScd0eAMO4UUfRFZ3k2alPrScYPbts--fsho960BSZFpdiaUqA/viewform?usp=header";
