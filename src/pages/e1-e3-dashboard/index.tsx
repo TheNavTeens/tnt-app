@@ -15,7 +15,7 @@ const E1E3Dashboard = () => {
   return (
     <div>
       <Container height="100vh">
-        <Banner /> 
+        <Banner />
         <Tabs>
           <TabList>
             <Tab>Evangelism</Tab>
@@ -28,6 +28,8 @@ const E1E3Dashboard = () => {
                 <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLOWTa8Qo8WWSZ6PZLOTaKOVGia-vdPmqOa3dY2OUkSNvV-G1yN_x7hruLqw0ytj4giXFJAHUtjA5Z/pubchart?oid=803854579&amp;format=interactive"></iframe>
                 <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLOWTa8Qo8WWSZ6PZLOTaKOVGia-vdPmqOa3dY2OUkSNvV-G1yN_x7hruLqw0ytj4giXFJAHUtjA5Z/pubchart?oid=37917538&amp;format=interactive"></iframe>
                 <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLOWTa8Qo8WWSZ6PZLOTaKOVGia-vdPmqOa3dY2OUkSNvV-G1yN_x7hruLqw0ytj4giXFJAHUtjA5Z/pubchart?oid=1893613535&amp;format=interactive"></iframe>
+                <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLOWTa8Qo8WWSZ6PZLOTaKOVGia-vdPmqOa3dY2OUkSNvV-G1yN_x7hruLqw0ytj4giXFJAHUtjA5Z/pubchart?oid=483887288&amp;format=interactive"></iframe>
+                <iframe width="800" height="500" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLOWTa8Qo8WWSZ6PZLOTaKOVGia-vdPmqOa3dY2OUkSNvV-G1yN_x7hruLqw0ytj4giXFJAHUtjA5Z/pubchart?oid=569816040&amp;format=interactive"></iframe>
               </VStack>
             </TabPanel>
             <TabPanel>
@@ -43,7 +45,7 @@ const E1E3Dashboard = () => {
           </TabPanels>
         </Tabs>
       </Container>
-    </div>
+    </div >
   )
 }
 
