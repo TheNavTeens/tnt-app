@@ -2,16 +2,16 @@ import React from 'react';
 
 class TzNavCoPFeedback extends React.Component {
   componentDidMount() {
-    let session = "intention";
+    let session = "disciple-making";
 
     if (session == "disciple-making") {
-      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScd0eAMO4UUfRFZ3k2alPrScYPbts--fsho960BSZFpdiaUqA/viewform?usp=header";
+      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdxSqFhKE7SGL66jWbtCWlA8PgnQHQzwAfnc7jN_gAZ4LZHiA/viewform?usp=header";
     } else if (session == "leadership") {
-      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfpWYV6Ar7RAG-r3ySULHdVtmbuYpp40TaqUgrKZUn_o0UEWg/viewform?usp=header";
+      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeJa4h_0fOyfqA40zwGVgkEg-5056DUgrb5uFOq5yFEy7hazA/viewform?usp=header";
     } else if (session == "vision") {
-      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSduCN3Riyp8njuFcJmoThfonuq77Q8w4X49LTKnG4xZkUgBJA/viewform?usp=header";
+      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSef-gI8V6xpsD_UjbmeYSLUZ0qMKR6vrNzpRLUKptbBLOimLg/viewform?usp=header";
     } else if (session == "intention") {
-      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScQpWghtg9bwLds6-v6mpf9dwcrRAmQGESIe3bEu_o6MGatuw/viewform?usp=header";
+      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSd4hA2FGwYDoOCSLWrg5yoiIJROJxp9GjUA-0wa5pLYOWfrSg/viewform?usp=header";
     }
   }
 
